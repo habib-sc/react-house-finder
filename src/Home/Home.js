@@ -2,11 +2,12 @@ import React from 'react';
 import AllListings from '../AllListings/AllListings';
 import HeroSection from './HeroSection/HeroSection';
 
-const Home = () => {
+const Home = (props) => {
+    const { getDetail } = props;
     return (
         <div>
             <HeroSection></HeroSection>
-            <AllListings></AllListings>
+            <AllListings getDetail={getDetail}></AllListings>
         </div>
     );
 };

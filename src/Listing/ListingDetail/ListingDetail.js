@@ -1,13 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-
-const Listing = (props) => {
-    const { category, name, price, propertyType, bedrooms, bathrooms, garage, size, img } = props.listing;
-    const { getDetail } = props;
+const ListingDetail = (props) => {
+    const { category, name, price, propertyType, bedrooms, bathrooms, garage, size, img } = props.listingDetail;
 
     return (
-        <Link to='/listing-detail' onClick={ () => {getDetail(props.listing)}}>
+            
             <div className='border border-emerald-400 min-h-[300px] rounded p-5 flex flex-col items-center justify-center shadow-2xl'>
                 <img className='object-cover rounded' src={img} alt="" />
                 <h2 className='mt-3 text-xl'>{name}</h2>
@@ -22,8 +19,9 @@ const Listing = (props) => {
                     <div className='mx-1 flex items-center'><img src="images/icons/ruler.png" alt="" className='mx-1 h-5' />{size} m<sup>2</sup></div>
                 </div>
             </div>
-        </Link>
+        
+        
     );
 };
 
-export default Listing;
+export default ListingDetail;

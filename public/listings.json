@@ -9,7 +9,7 @@
     "bedrooms": 4,
     "bathrooms": 2,
     "garage": 1,
-    "size": "1200 Square Feet",
+    "size": "1200",
     "img": "./images/listings/l-1.jpg"
   },
 
@@ -23,7 +23,7 @@
     "bedrooms": 4,
     "bathrooms": 2,
     "garage": 1,
-    "size": "1200 Square Feet",
+    "size": "1200",
     "img": "./images/listings/l-2.jpg"
   },
 
@@ -37,7 +37,7 @@
     "bedrooms": 4,
     "bathrooms": 2,
     "garage": 1,
-    "size": "1200 Square Feet",
+    "size": "1200",
     "img": "./images/listings/l-3.jpg"
   },
 
@@ -51,7 +51,7 @@
     "bedrooms": 4,
     "bathrooms": 2,
     "garage": 1,
-    "size": "1200 Square Feet",
+    "size": "1200",
     "img": "./images/listings/l-4.jpg"
   },
 
@@ -65,7 +65,7 @@
     "bedrooms": 4,
     "bathrooms": 2,
     "garage": 1,
-    "size": "1200 Square Feet",
+    "size": "1200",
     "img": "./images/listings/l-5.jpg"
   },
 
@@ -79,7 +79,7 @@
     "bedrooms": 4,
     "bathrooms": 2,
     "garage": 1,
-    "size": "1200 Square Feet",
+    "size": "1200",
     "img": "./images/listings/l-6.jpg"
   }
   
