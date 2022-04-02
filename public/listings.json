@@ -1,0 +1,87 @@
+[
+  {
+    "id": "1",
+    "category": "for-rent",
+    "name": "Contemporary apartment",
+    "agentName": "Rifat Hossain",
+    "price": 3600,
+    "propertyType": "Apartment",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "garage": 1,
+    "size": "1200 Square Feet",
+    "img": "./images/listings/l-1.jpg"
+  },
+
+  {
+    "id": "2",
+    "category": "for-rent",
+    "name": "Renovated apartment",
+    "agentName": "Arafat Hossain",
+    "price": 3900,
+    "propertyType": "Apartment",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "garage": 1,
+    "size": "1200 Square Feet",
+    "img": "./images/listings/l-2.jpg"
+  },
+
+  {
+    "id": "3",
+    "category": "for-sale",
+    "name": "Guaranteed modern home",
+    "agentName": "Rifat Hossain",
+    "price": 350000,
+    "propertyType": "Apartment",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "garage": 1,
+    "size": "1200 Square Feet",
+    "img": "./images/listings/l-3.jpg"
+  },
+
+  {
+    "id": "4",
+    "category": "for-sale",
+    "name": "Penthouse apartment",
+    "agentName": "Rifat Hossain",
+    "price": 56700,
+    "propertyType": "Apartment",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "garage": 1,
+    "size": "1200 Square Feet",
+    "img": "./images/listings/l-4.jpg"
+  },
+
+  {
+    "id": "5",
+    "category": "for-rent",
+    "name": "Relaxing apartment bay",
+    "agentName": "Rifat Hossain",
+    "price": 34600,
+    "propertyType": "Apartment",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "garage": 1,
+    "size": "1200 Square Feet",
+    "img": "./images/listings/l-5.jpg"
+  },
+
+  {
+    "id": "6",
+    "category": "for-rent",
+    "name": "Design place apartment",
+    "agentName": "Rifat Hossain",
+    "price": 36750,
+    "propertyType": "Apartment",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "garage": 1,
+    "size": "1200 Square Feet",
+    "img": "./images/listings/l-6.jpg"
+  }
+  
+  
+]
