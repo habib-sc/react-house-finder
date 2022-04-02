@@ -1,12 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const CategorySearch = () => {
+
+    const [searchCategory, setSearchCategory] = useState('');
+
+    const getButtonCategory = (categoryName) => {
+        setSearchCategory(categoryName);
+    }
+
     return (
         <div className='w-full'>
             <div className='flex justify-center'>
-                <button className='bg-emerald-500 text-white px-3 py-2 rounded-t-lg mx-2'>All</button>
-                <button className='bg-emerald-500 text-white px-3 py-2 rounded-t-lg mx-2'>For Rent</button>
-                <button className='bg-emerald-500 text-white px-3 py-2 rounded-t-lg mx-2'>For Sale</button>
+                <button onClick={ () => {getButtonCategory('all')}} className={`px-3 py-2 rounded-t-lg mx-2 ${searchCategory === 'all' ? "bg-emerald-500 text-white" : "bg-white"}`}>All</button>
+                <button onClick={ () => {getButtonCategory('for-rent')}} className={`px-3 py-2 rounded-t-lg mx-2 ${searchCategory === 'for-rent' ? "bg-emerald-500 text-white" : "bg-white"}`}>For Rent</button>
+                <button onClick={ () => {getButtonCategory('for-sale')}} className={`px-3 py-2 rounded-t-lg mx-2 ${searchCategory === 'for-sale' ? "bg-emerald-500 text-white" : "bg-white"}`}>For Sale</button>
             </div>
             <div className='flex justify-center'>
                 <div className='py-2 px-3 rounded-lg bg-emerald-500 w-[600px] flex justify-center items-center'>

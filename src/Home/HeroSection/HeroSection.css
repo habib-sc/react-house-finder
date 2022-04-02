@@ -1,4 +1,9 @@
 .hero-section{
     height: 94vh;
+    width: 100%;
     background-image: url('../../../public/images/house-background.jpg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border: 1px solid red;
+
 }
