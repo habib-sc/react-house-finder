@@ -1,15 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import useListings from '../hooks/useListings';
 import Listing from '../Listing/Listing';
 
 const AllListings = (props) => {
     const { getDetail } = props;
-    const [listings, setListings] = useState([]);
-
-    useEffect( () => {
-        fetch('listings.json')
-        .then(res => res.json())
-        .then(data => setListings(data));
-    } , []);
+    const [listings, setListings] = useListings();
 
     return (
         <div className='my-12'>

@@ -31,6 +31,7 @@ const Header = () => {
                     <nav className='my-3'>
                         <ul className='flex'>
                             <li className='ml-2'><MyLink to="/">Home</MyLink></li>
+                            <li className='ml-2'><MyLink to="/listings">All Listings</MyLink></li>
                             <li className='ml-2'><MyLink to="/for-rent">For Rent</MyLink></li>
                             <li className='ml-2'><MyLink to="/for-sale">For Sale</MyLink></li>
                             <li className='ml-2'><MyLink to="/agents">Agents</MyLink></li>
